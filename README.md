@@ -1,2 +1,2 @@
-# clip-api
-An API to communicate with OpenAI CLIP model 
+# CLIP-dashboard
+A simple dashboard to communicate with OpenAI CLIP model

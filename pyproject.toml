@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clip-api"
+version = "0.1.0"
+description = ""
+authors = ["mayis <mayis_s@purlin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+clip = { git = "https://github.com/openai/CLIP.git" }
+torch="<2"
+streamlit = "^1.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
