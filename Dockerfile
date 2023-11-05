@@ -8,4 +8,6 @@ COPY . .
 
 RUN poetry install
 
-ENTRYPOINT python -m streamlit run dashboard/main.py
+ARG PORT
+
+ENTRYPOINT python -m streamlit run dashboard/main.py --server.port $PORT
