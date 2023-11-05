@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "clip-api"
+name = "clip-dashboard"
 version = "0.1.0"
 description = ""
 authors = ["mayis <mayis_s@purlin.com>"]
